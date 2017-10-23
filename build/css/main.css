@@ -403,3 +403,40 @@ ul.years li, .year-line li {
 
 .show-hide-content {
   display: block !important; }
+-front {
+  z-index: 100000 !important; }
+
+#overlay {
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99998;
+  pointer-events: none; }
+
+.vertical-line {
+  width: 20px;
+  height: 100vh;
+  top: 0;
+  margin: 0;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  /* border-color: green; */
+  z-index: 99998;
+  border-style: dashed;
+  pointer-events: none;
+  /* border-width: 2; */ }
+
+.vertically-align, .sidebar .contents-toggle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.show-hide-content {
+  display: block !important; }
