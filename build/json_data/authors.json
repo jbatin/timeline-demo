@@ -1,0 +1,112 @@
+{
+	"authors": [
+		{
+			"fname": "Jane",
+			"lname": "Austen",
+			"birth": "1775",
+			"death": "1817"
+		},
+		{
+			"fname": "Walter",
+			"lname": "Scott",
+			"birth": "1771",
+			"death": "1832"
+		},
+		{
+			"fname": "William",
+			"lname": "Wordsworth",
+			"birth": "1770",
+			"death": "1850"
+		},
+		{
+			"fname": "John",
+			"lname": "Keats",
+			"birth": "1795",
+			"death": "1821"
+		},
+		{
+			"fname": "Samuel Taylor",
+			"lname": "Coleridge",
+			"birth": "1772",
+			"death": "1834"
+		},
+		{
+			"fname": "George Gordon",
+			"lname": "Byron",
+			"birth": "1788",
+			"death": "1824"
+		},
+		{
+			"fname": "Percy Bysshe",
+			"lname": "Shelley",
+			"birth": "1792",
+			"death": "1822"
+		},
+		{
+			"fname": "William",
+			"lname": "Blake",
+			"birth": "1757",
+			"death": "1827"
+		},
+		{
+			"fname": "Robert",
+			"lname": "Burns",
+			"birth": "1759",
+			"death": "1796"
+		},
+		{
+			"fname": "Edgar Allan",
+			"lname": "Poe",
+			"birth": "1809",
+			"death": "1849"
+		},
+		{
+			"fname": "John",
+			"lname": "Clare",
+			"birth": "1793",
+			"death": "1864"
+		},
+		{
+			"fname": "FOO",
+			"lname": "Bar",
+			"birth": "1752",
+			"death": "1775"
+		},
+		{
+			"fname": "BOO",
+			"lname": "Far",
+			"birth": "1778",
+			"death": "1784"
+		},
+		{
+			"fname": "qwerty",
+			"lname": "asdfg",
+			"birth": "1824",
+			"death": "1830"
+		},
+		{
+			"fname": "PPPPPPP",
+			"lname": "BBBBBBB",
+			"birth": "1798",
+			"death": "1806"
+		},
+		{
+			"fname": "Whatever",
+			"lname": "bullcrap",
+			"birth": "1768",
+			"death": "1826"
+		},
+		{
+			"fname": "OMG",
+			"lname": "STOPIT",
+			"birth": "1774",
+			"death": "1782"
+		},
+		{
+			"fname": "QQQQQ",
+			"lname": "WWWWWW",
+			"birth": "1756",
+			"death": "1764"
+		}
+	]
+}
