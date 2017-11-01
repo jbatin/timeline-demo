@@ -83,7 +83,7 @@ a {
   background-color: #ff7d66;
   position: absolute;
   /*transform: rotate(45deg);*/
-  transition: background-color .5s ease-in-out .75s;
+  /*transition: background-color .5s ease-in-out .75s;*/
   /*transition-property: background-color;*/
   box-shadow: 0px, 0px, 10px, -2px, black; }
 
@@ -376,10 +376,12 @@ ul.years li, .year-line li {
 .expose-author {
   background-color: rgba(255, 0, 0, 0.8) !important; }
 
-.expose-author-rhombus {
-  /*transparent rgba(255, 0, 0, 0.5)*/
-  border-color: transparent rgba(255, 0, 0, 0.8) !important; }
+.expose-event {
+  background-color: rgba(255, 0, 0, 0.8) !important; }
 
+/*.expose-author-rhombus {
+	border-color: transparent rgba(255, 0, 0, .8) !important;
+}*/
 .bring-to-front {
   z-index: 100000 !important; }
 
@@ -417,10 +419,7 @@ ul.years li, .year-line li {
 
 .show-hide-content {
   display: block !important; }
-er-events: none; }
-
-.vertical-line {
-  width: 20px;
+ width: 20px;
   height: 100vh;
   top: 0;
   margin: 0;
