@@ -20,6 +20,7 @@ a {
 .author {
   height: 18px;
   border-radius: 9px;
+  cursor: pointer;
   /*.rhombus {
 	  content: "";
 	  border-style: solid;
@@ -73,6 +74,7 @@ a {
     /*background-color: blue;*/ }
 
 .event {
+  cursor: pointer;
   height: 18px;
   border-radius: 10px;
   /*}*/
@@ -400,6 +402,31 @@ ul.years li, .year-line li {
   display: none;
   background-color: rgba(255, 255, 255, 0.3);
   position: absolute;
+  border: none;
+  /* border-color: green; */
+  z-index: 99998;
+  /*border-style: dashed;*/
+  pointer-events: none;
+  /* border-width: 2; */ }
+
+.vertically-align, .sidebar .contents-toggle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.show-hide-content {
+  display: block !important; }
+er-events: none; }
+
+.vertical-line {
+  width: 20px;
+  height: 100vh;
+  top: 0;
+  margin: 0;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
   /* border-color: green; */
   z-index: 99998;
   border-style: dashed;
@@ -410,7 +437,8 @@ ul.years li, .year-line li {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
 
 .show-hide-content {
   display: block !important; }
