@@ -128,6 +128,24 @@ a {
     /*box-shadow: 0px 0px 10px -2px black !important;*/
     /*z-index: 99999 !important;*/ }
 
+.banner {
+  position: absolute;
+  /*left: 0;*/
+  top: 18px;
+  width: 2vw;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  opacity: .5; }
+  .banner .banner-text {
+    /*font-family: "Arial";*/
+    position: absolute;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+
 .show_tooltip {
   /*opacity: 1;*/
   visibility: visible;
